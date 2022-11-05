@@ -1,0 +1,42 @@
+body{
+    font-size: 22px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.text{
+    text-shadow: 2px 2px 4px #000;
+    font-size: 40px;
+    animation: color 5s infinite;
+}
+
+
+    @keyframes color {
+        0%{color: orange}
+        10%{color: purple}
+        20%{color: red}
+        30%{color: cadetblue}
+        40%{color: yellow}
+        50%{color: coral}
+        60%{color: green}
+        70%{color: cyan}
+        80%{color: deeppink}
+        90%{color: dodgerblue}
+        100%{color: orange}
+        
+    }
+
+    #geribtn:hover{
+        color: dimgrey;
+        font-size: 24;
+        transition: 0.2s;
+    }
+
+    #btnanan{
+        border-radius: 5px;
+        border: none;
+        border-color: #333;
+        outline: none;
+        padding: 0;
+        background: none;
+    }

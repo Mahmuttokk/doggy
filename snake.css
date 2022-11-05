@@ -1,0 +1,15 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+#geribtn:hover{
+    color: dimgrey;
+    transition: 0.2s;
+}
+
+
+
+
